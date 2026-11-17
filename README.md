@@ -1,4 +1,4 @@
-# Laboratorio virual para monitoreo con Wazuh
+# Laboratorio virtual para monitoreo con Wazuh
 
 ## Objetivo
 Utilizar máquinas virtuales para generar un espacio que permita simular la implementación, exploración y análisis con una plataforma SIEM (Wazuh).
@@ -25,7 +25,7 @@ En la computadora física se abre una terminal y se ingresa el comando:
 **Paso 2: Instalar Wazuh**  
 Se instalan las dependencias de Wazuh:
 `curl -sO https://packages.wazuh.com/4.14/wazuh-install.sh && sudo bash ./wazuh-install.sh -a`
-Si los requisitos del sistema son insuficientes, hay que evadir con -i. Si se ha realizado antes algún proceso y ha fallado, hay que forzar a sobreescribir con -o (duda)  
+Si los requisitos del sistema son insuficientes, hay que evadir con -i. Si se ha realizado antes algún proceso y ha fallado, hay que forzar a sobreescribir con -o.
 
 Algunos problemas con los que es posible encontrarse al instalar Wazuh son los siguientes:  
 1. Falta de RAM: Como este proyecto está pensado para una RAM muy limitada, se puede configurar RAM virtual (tanto en la PC original como en el Server) para evitar que los procesos se detengan o bloqueen.  
